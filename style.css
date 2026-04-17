@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #070707f0;
+}
+
+header {
+    background: #0f7add;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Pesquisar {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    max-width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+ button {
+    padding: 10px 15px;
+    border: none;
+    background: #02444d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2db6c5;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.skins {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* imagens*/
+.skin-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    
+}
+
+.skin-card:hover {
+    transform: translateY(-15px);
+}
+
+.skin-card img {
+    width: 100%;
+    display: block;
+}
+
+.skin-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.skin-body h4 {
+    font-size: 20px;
+}
+
+
+
+/* info personagem */
+.info {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(207, 17, 17, 0.1);
+    font-size: 20px;
+}
+
+.info h2 {
+    margin-bottom: 5px;
+    
+}
+
+.info .title {
+    color: #080808;
+    margin-bottom: 8px;
+    
+}
+
+/*Historia do Personagem*/
+.lore {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.5;
+}
+
+.lore h3 {
+    color: #6f40f0;
+    margin-bottom: 10px;
+}
+
+.lore p {
+    font-size: 20px;
+    text-align: justify;
+}
